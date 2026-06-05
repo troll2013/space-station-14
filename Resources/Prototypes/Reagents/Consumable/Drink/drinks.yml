@@ -559,7 +559,7 @@
       methods: [ Touch ]
       effects:
       - !type:Extinguish
-     # Sunrise-End
+      # Sunrise-End
   plantMetabolism:
   - !type:PlantAdjustWater
     amount: 1 # The internet tells me I should avoid watering plants with ice, but mostly because of temperature, so this value being the same as water should probably be fine?
