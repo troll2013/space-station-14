@@ -574,9 +574,7 @@
       activeSound:
         path: /Audio/Weapons/ebladehum.ogg
     - type: ItemToggleSize
-    #Sunrise-Start
-      activatedSize: Ginormous
-    #Sunrise-End
+      activatedSize: Ginormous # Sunrise-Edit
     - type: ComponentToggler
       components:
       - type: DisarmMalus
