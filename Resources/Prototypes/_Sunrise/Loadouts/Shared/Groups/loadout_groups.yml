@@ -113,6 +113,14 @@
   - BrigmedicDuffel
 
 - type: loadoutGroup
+  id: BrigmedicOuterClothing
+  name: loadout-group-brigmedic-outer-clothing
+  loadouts:
+  - BrigmedicCoatLab
+  - BrigmedicArmoredRobe
+  - BrigmedicBulletproof
+
+- type: loadoutGroup
   id: BrigmedicJumpsuit
   name: loadout-group-brigmedic-jumpsuit
   loadouts:
