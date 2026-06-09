@@ -115,8 +115,8 @@
 - type: loadoutGroup
   id: BrigmedicOuterClothing
   name: loadout-group-brigmedic-outer-clothing
-  +  minLimit: 1
-  +  maxLimit: 1
+  minLimit: 1
+  maxLimit: 1
   loadouts:
   - BrigmedicCoatLab
   - BrigmedicArmoredRobe
