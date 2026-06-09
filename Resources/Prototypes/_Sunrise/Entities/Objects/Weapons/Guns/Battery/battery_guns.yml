@@ -856,7 +856,6 @@
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 0.85
-  - type: HeldSpeedModifier
   - type: StaticPrice
     price: 9000
 
