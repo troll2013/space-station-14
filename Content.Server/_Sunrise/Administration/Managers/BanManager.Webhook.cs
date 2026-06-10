@@ -21,7 +21,7 @@ public sealed partial class BanManager
 {
 #if SUNRISE_PRIVATE
     private readonly HttpClient _sunriseBanIdentityHttpClient = new();
-    private MakuraAccountIdentityResolver? _sunriseBanIdentityResolver;
+    private MakuraDiscordIdentityResolver? _sunriseBanIdentityResolver;
 #endif
 
     private string _sunriseBanIdentityApiUrl = string.Empty;
@@ -30,7 +30,7 @@ public sealed partial class BanManager
     private void InitializeSunriseBanWebhookHooks()
     {
 #if SUNRISE_PRIVATE
-        _sunriseBanIdentityResolver = new MakuraAccountIdentityResolver(
+        _sunriseBanIdentityResolver = new MakuraDiscordIdentityResolver(
             _sunriseBanIdentityHttpClient,
             _sawmill);
         _cfg.OnValueChanged(SunriseCCVars.MakuraAuthInternalApiUrl, value => _sunriseBanIdentityApiUrl = value, true);
